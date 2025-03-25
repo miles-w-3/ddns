@@ -1,0 +1,5 @@
+services:
+  ddns:
+    build: .
+    env_file:
+      - .env
